@@ -1,7 +1,7 @@
 #%%
 import numpy as np
 import matplotlib.pyplot as plt
-from qiskit.optimization import QuadraticProgram
+
 #%%
 
 alpha = 0.1

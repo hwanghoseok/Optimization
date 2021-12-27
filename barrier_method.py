@@ -111,6 +111,8 @@ plt.semilogy()
 plt.show()
 
 ## Plot de w en fonction de mu
+
+
 mu_min = np.argmin(f_true_list)
 plt.figure()
 w_diff_norm = [np.linalg.norm(w-w_center_list[mu_min]) for w in w_center_list]
